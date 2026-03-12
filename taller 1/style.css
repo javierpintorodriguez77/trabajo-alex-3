@@ -1,81 +1,98 @@
-body{
-margin:0;
-font-family:Arial;
-}
-
-header{
-background:hsl(240, 13%, 58%);
-color:white;
-padding:15px;
-}
-
-.logo{
-display:inline-block;
-margin:0;
-}
-
-nav{
-float:right;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
 
 
-.inicio{
-background:#f2f2f2;
-text-align:center;
-padding:60px;
-}
+    .menu {
+        background: #3b3f4a;
+        color: white;
+        padding: 15px;
+        overflow: hidden;
+    }
 
-.img1{
-width:200px;
-margin-bottom:20px;
-}
+    .menu h2 {
+        float: left;
+        margin: 0;
+    }
 
-.texto h1{
-color:#ff381e;
-}
+    .menu nav {
+        float: right;
+    }
 
-button{
-background:#ff1212;
-color:white;
-border:none;
-padding:10px 20px;
-margin-top:10px;
-}
-
-
-.perfil{
-background:#f56262;
-color:white;
-text-align:center;
-padding:60px;
-}
-
-.perfil-img{
-width:150px;
-border-radius:100px;
-margin-bottom:20px;
-}
+    .menu a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
 
 
-.proyectos{
-text-align:center;
-padding:50px;
-}
 
-.card{
-width:200px;
-border:1px solid #ddd;
-display:inline-block;
-margin:10px;
-padding:15px;
-vertical-align:top;
-}
+    .principal {
+        background: #e6e6e6;
+        padding: 60px;
+        overflow: hidden;
+    }
+
+    .img1 {
+        float: left;
+        width: 40%;
+    }
+
+    .img1 img {
+        width: 300px;
+    }
+
+    .texto {
+        float: left;
+        width: 50%;
+    }
+
+    .texto h1 {
+        color: #ff5722;
+        font-size: 40px;
+    }
+
+    .boton {
+        background: #ff5722;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+
+
+    .perfil {
+        background: #ff5722;
+        color: white;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .avatar {
+        width: 150px;
+        border-radius: 100px;
+    }
+
+
+
+    .proyectos {
+        padding: 50px;
+        background: #f5f5f5;
+        text-align: center;
+    }
+
+    .card {
+        width: 20%;
+        float: left;
+        margin: 2%;
+        background: white;
+        padding: 15px;
+    }
+
+    .card img {
+        width: 100%;
+    }
 
 .card img{
 width:100%;
